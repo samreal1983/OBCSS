@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+div {
+  padding: 10px;
+  margin: 5px;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #165390;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+
+}
+
+
+
+h1 {
+  color: #165390;
+  text-align: left;
+  font-family: Montserrat,sans-serif;
+  font-size:2.00em;
+  
+}
+
+h2 {
+  color:#165390;
+  text-align: left;
+  font-family: Montserrat,sans-serif;
+  font-size:1.8em;
+  font-weight: 200;
+  
+}
+
+
+h3 {
+  color:#636363;
+  text-align: left;
+  font-family: Montserrat,sans-serif;
+  font-size:1.4em;
+  font-weight: 400;
+  line-height: 1.6em;
+  
+}
+
+h4 {
+  color:#636363;
+  text-align: left;
+  font-family: Montserrat,sans-serif;
+  font-size:1.0em;
+  font-weight: 600;
+  line-height: 1.6em;
+}
+
+p {
+  font-family: arial;
+  font-size: 13px;
+  font-color: #636363;
+  line-height: 1.5em;
+} 
+
+table {
+  font-family: arial;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+    text-align: left;
+  padding: 8px;
+}
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #5a8fc5;
+  color: white;
+}
